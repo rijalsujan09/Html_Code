@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Forms</title>
+    <style>
+        h1{color: darkorange;}
+    </style>
+</head>
+<body>
+    <h1 style="font: size 40px;">Regestration Form</h1>
+<center>
+    <form action="Fs.html">
+        <fieldset>
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname" value="sujan"><br>
+        <br>
+        <labe for="">Last Name:</labe><br>
+        <input type="text" id="lname" name="lname" value="rijal"><br>
+        <br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" placeholder="abc@gmail.com"><br>
+        <br>
+        <label for="date">Date of Birth:</label><br>
+        <input type="date" id="date" name="Date" value="08/01/1998"><br>
+        <br>
+        <label for="address">Address:</label><br>
+        <input type="text" id="address" cols="30" row="3">
+        <br>
+        <h2>select your gender</h2>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="Male"><br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="Female"><br>
+        <label for="other">prefer not to say</label>
+        <input type="radio" id="other" name="gender" value="prefer not to say"><br>
+        <br>
+        <h2>Your preferable Web Langauage</h2>
+        <label for="HTML">HTML</label>
+        <input type="checkbox" id="HTML" name="weblang" value="HTML">
+        <label for="CSS">CSS</label>
+        <input type="checkbox" id="CSS" name="weblang" value="CSS">
+        <label for="java-script">Java-script</label>
+        <input type="checkbox" id="java-script" name="weblang" value="java-script">
+        <label for="java" name="weblang" value="java">Java</label>
+        <input type="checkbox" id="java" name="weblang" valua="java">
+        <br>
+        <br>
+        <h2>Heighest Level of Education</h2>
+        <label>Your Qualification:</label><br>
+        <select>
+            <option>Master Graduate</option>
+            <option>Bachelor graduate</option>
+            <option>collage degree</option>
+            <option>High School graduate</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+        </fieldset>
+    </form>
+</center>
+</body>
+</html>
